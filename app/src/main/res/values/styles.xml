@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="dialog_button_text_style">
+        <item name="android:textSize">@dimen/big_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/list_item_selector</item>
+        <item name="android:paddingTop">@dimen/custom_dialog_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/custom_dialog_padding_vertical</item>
+    </style>
+    <style name="dialog_message_text_style">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@color/color_black_333333</item>
+        <item name="android:paddingLeft">@dimen/dialog_text_margin_horizontal</item>
+        <item name="android:paddingRight">@dimen/dialog_text_margin_horizontal</item>
+        <item name="android:paddingTop">@dimen/dialog_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/dialog_padding_vertical</item>
+    </style>
+    <style name="dialog_title_text_style">
+        <item name="android:textSize">@dimen/big_text_size</item>
+        <item name="android:textColor">@color/color_activity_blue_bg</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/dialog_text_margin_horizontal</item>
+        <item name="android:paddingRight">@dimen/dialog_text_margin_horizontal</item>
+        <item name="android:paddingTop">@dimen/dialog_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/dialog_padding_vertical</item>
+    </style>
+    <style name="dialog_default_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="grid_view" parent="@android:style/Widget.GridView"></style>
+
+    <style name="MBaseThemes" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/search_bar_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="list_view" parent="@android:style/Widget.ListView"></style>
+    <style name="MapTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/search_bar_background</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+</resources>

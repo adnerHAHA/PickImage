@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PickImage</string>
+    <string name="picker_image_folder_info">共%d张</string>
+    <string name="picker_image_exceed_max_image_select">最多选择%d张图片！</string>
+    <string name="submit">确定</string>
+    <string name="cancle">退出</string>
+    <string name="unknow_size">未知大小</string>
+    <string name="picker_image_error">获取图片出错</string>
+    <string name="picker_image_preview">预览</string>
+    <string name="btn_send">完成</string>
+    <string name="picker_image_send_select">完成</string>
+    <string name="picker_image_preview_original_select">发送原图（%s）</string>
+    <string name="picker_image_preview_original">发送原图</string>
+    <string name="tip_choose_one_at_least">请至少选择一张发送</string>
+    <string name="album">相册</string>
+    <string name="gallery_invalid">未找到图库</string>
+    <string name="sdcard_not_enough_head_error">SD卡被拔出或存储空间不足</string>
+    <string name="sdcard_not_enough_error">存储空间不足</string>
+    <string name="picker_image_folder">相册</string>
+    <string name="picker_image_album_loading">相册加载中…</string>
+    <string name="picker_image_album_empty">相册中没有图片！</string>
+    <string name="record_video_or_img">点击拍照,长按录制小视频</string>
+    <string name="flash_auto">自动</string>
+    <string name="flash_on">开</string>
+    <string name="flash_off">关</string>
+</resources>

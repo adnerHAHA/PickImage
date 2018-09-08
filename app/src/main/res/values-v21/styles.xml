@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MBaseThemes" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/search_bar_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+</resources>
